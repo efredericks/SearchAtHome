@@ -12,3 +12,7 @@ To run the full experiment:
 To run a single experiment:
 
 * `python3 string-search.py [seed]`  
+
+## Data parsing
+
+The raw data from our experiment is in the tarball within the `data` directory.  Untar that, run `string-ga-parser.py` against it to generate the CSV file, and then import into R.
