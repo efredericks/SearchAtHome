@@ -16,3 +16,13 @@ To run a single experiment:
 ## Data parsing
 
 The raw data from our experiment is in the tarball within the `data` directory.  Untar that, run `string-ga-parser.py` against it to generate the CSV file, and then import into R.
+
+## Hardware
+
+* Raspberry Pi 4B (4GB RAM)
+
+* Raspberry Pi 3B x2 (additional Pi was for redundancy)
+
+* Acer Aspire One netbook (acts as a 'point of entry' to a sandboxed network)
+
+* Linksys WRT router (installed with [Tomato firmware](https://www.polarcloud.com/tomato))
