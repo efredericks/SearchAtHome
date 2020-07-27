@@ -26,3 +26,5 @@ The raw data from our experiment is in the tarball within the `data` directory. 
 * Acer Aspire One netbook (acts as a 'point of entry' to a sandboxed network)
 
 * Linksys WRT router (installed with [Tomato firmware](https://www.polarcloud.com/tomato))
+
+  * Note: Tomato was necessary as we also were applying a DDoS attack against a load-balanced web server (as part of a separate, future experiment).  Normal firmware can most likely handle the experiments outlined for `ssbse20`.
